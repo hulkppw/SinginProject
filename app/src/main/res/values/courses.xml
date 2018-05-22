@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course">
+        <item>语文</item>
+        <item>数学</item>
+        <item>计算机组成原理</item>
+        <item>毛泽东思想与邓小平理论概论</item>
+    </string-array>
+</resources>

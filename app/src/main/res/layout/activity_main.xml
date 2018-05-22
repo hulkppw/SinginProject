@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/inputlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:elevation="3dip"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <EditText
+            android:id="@+id/M_username"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:hint="输入账号"
+            android:inputType="number"
+            android:maxLength="20"
+            android:paddingLeft="20dp"
+            android:textColor="#878787"></EditText>
+
+        <EditText
+            android:id="@+id/M_password"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/M_username"
+            android:hint="输入密码"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"></EditText>
+
+        <TextView
+            android:id="@+id/M_login"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/M_password"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="登录"
+            android:layout_marginTop="15dp"
+            android:textColor="#6E8B3D"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
